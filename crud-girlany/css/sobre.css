@@ -1,0 +1,30 @@
+
+  @charset "UTF-8";
+
+  .logo {
+    width: 80%;
+    padding-top:3pt;
+    float: left;
+    margin-left: 5%;
+    align-items: center;
+  }
+
+  .div-logo {
+   margin-bottom: 1.5%;
+   padding-top:1.6pt;
+   width:18rem;
+   height: 5rem;
+   margin-left: 0.2%;
+  padding-right: 0%;
+   background-color: white;
+   float: left;
+
+  }
+
+  .plano-de-fundo{
+
+    background-image:url(../img/plano-de-fundo.jpg)!important;
+    background-size: 700px;
+   
+  }
+

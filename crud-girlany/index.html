@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="icon" href="favicon.png"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/records.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/sobre.css">
+
+
+    <script src="main.js" defer></script>
+    <title>CRUD</title>
+</head>
+<body>
+  
+ <div class="plano-de-fundo">
+
+    <header>
+        <div class="div-logo">
+            <img class = "logo" src="logo-visao.png">
+ </div>
+        <h1 class="header-title titulo"> CADASTRO RH</h1>  
+    </header>
+    <main>
+       
+        <button type="button" class="button blue mobile" id="cadastrarCliente">Cadastrar </button>
+        <table id="tableClient" class="records">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>E-mail</th>
+                    <th>Celular</th>
+                    <th>Cidade</th>
+                    <th>Profissão</th>
+                    <th>Ação</th>
+                   
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+        <!-- MODAL APAGAR -->
+        <div class="modal" id="modal2">
+            <div class="modal-content">
+                <header class="modal-header">
+                    <h2>Excluir Cliente</h2>
+                    <span class="modal-close" id="modalClose2">&#10006;</span>
+                </header>
+                <div id='avisoDelete'>
+                    <!-- aviso de delete -->
+                </div>
+                <footer class="modal-footer">
+                    <button id="apagar" class=" button red ">Apagar </button>
+                    <button id="cancelar2" class="button blue">Cancelar</button>
+                </footer>
+            </div>
+        </div>
+
+        <!-- MODAL CRIAR E EDITAR -->
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <header class="modal-header">
+                    <h2>Novo Candidato</h2>
+                    <span class="modal-close" id="modalClose">&#10006;</span>
+                </header>
+                <form id="form" class="modal-form">
+                  
+                    <input type="text" id="nome" data-index="new" class="modal-field" placeholder="Nome do Candidato" required>
+                    <input type="email" id="email" class="modal-field" placeholder="e-mail do Candidato" required>
+                    <input type="text" id="celular" class="modal-field" placeholder="Celular do Candidato" required>
+                    <input type="text" id="cidade" class="modal-field" placeholder="Cidade do Candidato" required>
+                    <input type="text" id="profissao" class="modal-field" placeholder="profissao" required>
+                    
+                </form>
+                <footer class="modal-footer">
+                    <button id="salvar" class="button green">Salvar</button>
+                    <button id="cancelar" class="button blue">Cancelar</button>
+                </footer>
+            </div>
+        </div>
+        
+    </main>
+</div>
+    <footer>
+        Projeto baseado no projeto do Prof. Fernando Leonid
+    </footer>
+    <script  src=
+    "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+            </script>
+            <script src=
+    "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js">
+            </script>
+            <script src="fancyTable.js">
+            </script>
+            <script type="text/javascript">
+                  
+                $(document).ready(function() {
+                    $(".sampleTable").fancyTable({
+                      /* Column number for initial sorting*/
+                       sortColumn:0,
+                       /* Setting pagination or enabling */
+                       pagination: true,
+                       /* Rows per page kept for display */
+                       perPage:3,
+                       globalSearch:true
+                       });
+                                  
+                });
+            </script>
+</body>
+</html>
