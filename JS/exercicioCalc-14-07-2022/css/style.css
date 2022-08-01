@@ -1,0 +1,41 @@
+/* Estilo "emprestado" do site http://pt.wikipedia.org/wiki/XHTML */
+
+form fieldset {
+    margin: 10px auto 10px auto;
+    width: 40%;
+    border: solid black 1px;
+    padding: 3%;
+ }
+ 
+ form legend {
+    padding: 6px;
+    margin: 10px;
+    border: solid black 1px;
+    font-size: 90%;
+    font-weight: bold;
+    background-color: #9c80cf;
+ }
+ 
+ form label {
+    display: block;
+    font-size: 16px;
+    
+ }
+ 
+ form input {
+    width: 100%;
+    border: solid #ccc 1px;
+    font-size: 11px;
+    margin-bottom: 10px;
+ }
+ 
+ form input.botao {
+    display: block;
+    width: auto;
+    float: right;
+    background-color: rgb(78, 78, 216);
+ }
+
+ .background{
+    background-color: rgb(185, 166, 206);
+ }

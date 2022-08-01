@@ -1,0 +1,27 @@
+.alinhamento {
+    width: 940px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: "Helvetica", "Lucida Grande", sans-serif;
+    color: #3D3D3D;
+    background-color: rgba(78, 121, 121, 0.377);
+
+    }
+
+   .botao {
+        margin-top: 2% !important;
+        border-bottom-color: #000000 !important;
+    }
+
+    .texto{
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .imagem{
+        width: 500px !important;
+        height: fit-content !important;
+    }

@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+   <title>Devin - Calculadora Simples</title>
+</head>
+<body>
+    <!-- Código "emprestado" do site http://pt.wikipedia.org/wiki/XHTML -->
+
+<form name="calcform" method="post" action="" >
+    <fieldset class="background">
+       <legend>Devin - Calculadora Simples</legend>
+ 
+       <label for="valor1">Digite o valor <strong>1</strong>:</label>
+       <input type="text" name="valor1" id="valor1" />
+ 
+       <label for="valor2">Digite o valor <strong>2</strong>:</label>
+       <input type="text" name="valor2" id="valor2" />
+ 
+       <label for="oper">Selecione a operação:</label>
+       <select name="oper" id="oper">
+          <option value="somar">Somar</option>
+          <option value="subtrair">Subtrair</option>
+          <option value="multiplicar">Multiplifcar</option>
+          <option value="dividir">Dividir</option>
+       </select>
+        <br><br>
+       <label for="res">Resultado:</label>
+       <input type="text" name="res" id="res" />
+ 
+       <input type="button" value="Calcular" class="botao btn btn-success" onClick="calcular(document.calcform.oper.value)"/>
+    </fieldset>
+ </form>
+ <script src="js/calculadora.js"></script>
+</body>
+</html>

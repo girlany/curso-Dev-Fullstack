@@ -1,0 +1,21 @@
+.teste{
+font-family: 'Courier New', Courier, monospace;
+background-color: rgb(128, 0, 255);
+color: rgb(200, 232, 238);
+}
+.teste2{
+  background-color: rgba(137, 207, 223, 0.36);
+}
+.paragrafo{
+  grid-column: 1fr 1fr;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+.teste3{
+  background-color: rgba(31, 45, 173, 0.898);
+}
+
+.fonte{
+  font-family: 'Courier New', Courier, monospace;
+}

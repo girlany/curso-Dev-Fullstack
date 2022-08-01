@@ -1,0 +1,31 @@
+
+ 
+ .background{
+    background-color: rgb(185, 166, 206);
+    height: 450px;
+    width: 350px;
+ }
+
+ .formulario{
+   margin-top: 5%;
+ 
+ }
+
+ legend{
+   margin-top: 10px;
+   text-align: center;
+ }
+ 
+ fieldset{
+   margin-left: 42%;
+   border-radius: 5%;
+ }
+
+ input{
+   margin-left: 10%;
+   border-radius: 3%;
+ }
+
+ label{
+   margin-left: 10%;
+ }

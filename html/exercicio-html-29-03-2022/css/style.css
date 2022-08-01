@@ -1,0 +1,51 @@
+div {
+    grid-column: span;
+    justify-items: flex-start;
+
+}
+
+.principal{
+    grid-column: span;
+    justify-items: flex-start;
+    background-image: url(/img/aquamarine1.jpg);
+ }
+
+ body {
+    
+    background-color: rgba(193, 230, 217, 0.747) ;
+ }
+
+.fonte1{
+    color: rgb(7, 7, 167);
+    font-size: 0.5cm;
+    font-family: Arial;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.fonte2{
+    color: whitesmoke;
+    margin-left: 20px;
+    font-size: 0.7cm;
+    padding-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT' ;
+}
+
+.fonte3{
+    color: whitesmoke;
+    background-color: rgba(70, 70, 223, 0.63);
+    margin-left: 20px;
+    font-size: 0.7cm;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 20%;
+    font-family: 'Times New Roman';
+}
+
+#tam {
+     /*Novamente definimos a largura da div*/
+  width:700px;
+  /* altura da div */
+  height: 170px;
+  background-color: rgba(212, 185, 238, 0.849);
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Js</title>
+</head>
+
+<body class="alinhamento">
+    <h1 >Js</h1>
+    <div>
+        <h2>Teste Js Mensagem 1</h2>
+        <button id="botaoJs" botao.onclick=mostraAlerta() class="btn btn-info botao">TESTE</button>
+    </div>
+    
+    <div>
+        <h2 class="texto">Teste Js Mensagem 2</h2>
+        <button id="botaoJs2" botao.onclick=mostraAlerta() class=" btn btn-success botao">TESTE 2</button>
+    </div>
+    <img class = "imagem" src="/img/img2.jpg" alt="">
+    <script src="js/teste.js"></script>
+</body>
+</html>
+
+<script>
+    $(function(){  
+        $("#div1").mouseover(function(){
+            alert("O cursor foi posicionado sobre a div.");
+        });
+    });
+</script>
